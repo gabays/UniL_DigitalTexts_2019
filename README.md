@@ -1,24 +1,25 @@
-# Formation XSLT 23-24 avril, Lyon
+# Formation Textes et éditions numériques, 25 et 26 avril
 
-Cet entrepôt contient le cours dispensé par Ariane Pinche, Matthias Gille Levenson, Jean-Paul Rehr et Simon Gabay pour la [formation XSLT](https://cosme.hypotheses.org/1117) du consortium COSME² (23-24 avril 2019).
+Cet entrepôt contient le cours dispensé par Elena Spadini, Jose Luis Losada et Simon Gabay pour la [Formation Textes et éditions numériques](https://agenda.unil.ch/display?id=1549376133695) de l'université de Lausanne (25 et 26 avril 2019)
 
 ## Lieu
 
-Maison des Sciences de l'Homme\
-14, avenue Berthelot\
-69007 Lyon\
-Tramway: Centre Berthelot (T2)
+Université de Lausanne
+Géopolis - 2153
 
 ## Programme
 
 
 | Jour | Heure | Cours | Enseignant |
 |---|---|---|---|
-| 23/04 | matin | XPath et fondamentaux du langage XSLT | A. Pinche |
-| 23/04 | après-midi I | XSLT: publication | M. Gille Levenson et S. Gabay |
-| 23/04 | après-midi II | Conférence: LaTeX et l'édition | Maïeul Rouquette |
-| 24/04 | matin | XSLT: visualisation | J.-P- Rehr |
-| 24/04 | après-midi | Travail sur les projets des participants |  |
+| 25/04 | 9h00-10h30 | Introduction aux humanités numériques et aux éditions numériques | S. Gabay |
+| 25/04 | 11h00-12h30 | TEI (1ère partie): encodage de base | J. L. Losada |
+| 25/04 | 14h00-15h30 | TEI (2ème partie): métadonnées dans le teiHeader | S. Gabay |
+| 25/04 | 16h00-17h30 | TEI (3ème partie): entités nommées et cartographie numérique | J. L. Losada |
+| 26/04 | 9h00-10h30 | TEI (4ème partie): TEI Guidelines, schémas et publication | S. Gabay |
+| 26/04 | 11h00-12h30 | Théorie et pratique de la collation automatique (1ère partie): concepts et traitements | E. Spadini |
+| 26/04 | 14h00-15h30 | Théorie et pratique de la collation automatique (2ème partie): formats et résultats | E. Spadini |
+| 26/04 | 16h00-17h30 | Questions et conclusions |  |
 
 
 ## Licence de diffusion
