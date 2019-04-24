@@ -17,7 +17,7 @@ Géopolis - 2153
 | 25/04 | 14h00-15h30 | TEI (2ème partie): métadonnées dans le teiHeader | S. Gabay |
 | 25/04 | 16h00-17h30 | [TEI (3ème partie): entités nommées](https://github.com/editio/workshop_tei_swiss) | J.L. Losada |
 | 26/04 | 9h00-10h00 | [TEI (4ème partie): TEI Guidelines et schémas](materials/20190425_TEIcustomization.zip) | E. Spadini |
-| 26/04 | 10h00-10h30 | TEI demo | S. Gabay, J.L. Losada |
+| 26/04 | 10h00-10h30 | TEI demo: transformations and cartography | S. Gabay, J.L. Losada |
 | 26/04 | 11h00-12h30 | [Théorie et pratique de la collation automatique (1ère partie)](https://github.com/elespdn/CollateX_tutorial/blob/master/workshopLausanne201904/INTRO.ipynb). | E. Spadini |
 | 26/04 | 14h00-15h30 | Théorie et pratique de la collation automatique (2ème partie). | E. Spadini |
 | 26/04 | 16h00-17h30 | Questions et conclusions |  |
