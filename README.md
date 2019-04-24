@@ -16,7 +16,7 @@ Géopolis - 2153
 | 25/04 | 11h00-12h30 | [TEI (1ère partie): encodage de base](https://github.com/editio/workshop_tei_swiss) | J. L. Losada |
 | 25/04 | 14h00-15h30 | TEI (2ème partie): métadonnées dans le teiHeader | S. Gabay |
 | 25/04 | 16h00-17h30 | [TEI (3ème partie): entités nommées et cartographie numérique](https://github.com/editio/workshop_tei_swiss) | J. L. Losada |
-| 26/04 | 9h00-10h30 | TEI (4ème partie): TEI Guidelines, schémas et publication [[slides](https://elespdn.github.io/talks/20190425_TEIcustomization/slides/TEIcustomizationSlides-rpubs.html#/) | [exercises classes](https://elespdn.github.io/talks/20190425_TEIcustomization/exerciseClasses.pdf) | [exercise Roma](https://elespdn.github.io/talks/20190425_TEIcustomization/exerciseRoma.pdf) | E. Spadini |
+| 26/04 | 9h00-10h30 | TEI (4ème partie): TEI Guidelines, schémas et publication [[slides](https://elespdn.github.io/talks/20190425_TEIcustomization/slides/TEIcustomizationSlides-rpubs.html#/) \| [exercises classes](https://elespdn.github.io/talks/20190425_TEIcustomization/exerciseClasses.pdf) \| [exercise Roma](https://elespdn.github.io/talks/20190425_TEIcustomization/exerciseRoma.pdf) | E. Spadini |
 | 26/04 | 11h00-12h30 | [Théorie et pratique de la collation automatique (1ère partie)](https://github.com/elespdn/CollateX_tutorial/blob/master/workshopLausanne201904/INTRO.ipynb). | E. Spadini |
 | 26/04 | 14h00-15h30 | Théorie et pratique de la collation automatique (2ème partie). | E. Spadini |
 | 26/04 | 16h00-17h30 | Questions et conclusions |  |
