@@ -293,7 +293,7 @@ Il en va de même pour ```<sourceDesc>```.
 
 ### ```<sourceDesc>``` (livre)
 
-```<sourceDesc>``` permet de décrire la source à partir de laquelle un texte électronique a été dérivé ou produit. Son contenu diffère grandement si cette source est 
+```<sourceDesc>``` permet de décrire la source à partir de laquelle un texte électronique a été dérivé ou produit. Son contenu diffère grandement si cette source est
 - un livre
 - un manuscrit
 
@@ -359,7 +359,7 @@ Il est non seulement nécessaire de connaître le nom des balises et l'endroit o
 
 ### Bigger than big
 
-La structure 
+La structure
 ```XML
 <teiHeader>
   <fileDesc>
@@ -445,7 +445,7 @@ signifie que ```<fileDesc>``` n'est pas la seule balise possible dans ```<teiHea
 ---
 ### Exercice
 
-Prenez le fichier ```TEI_2_exo.xml``` et ajoutez des métadonnées.
+Prenez le fichier [TEI_2_exo.xml](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_Doc) et ajoutez des métadonnées.
 
 Procédez en trois étapes:
 1. Remplissez les données minimales de manière simple sans changer ```<p>```et ```<title>```.
