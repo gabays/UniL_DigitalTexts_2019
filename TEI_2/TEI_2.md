@@ -26,7 +26,7 @@ Lausanne, Jeudi 24 avril 2019
 
 ### Métadonnées et TEI
 
-- Dans un document encodé en TEI, on trouve dans le ```<teiHeader>``` les métadonnées du document.
+- Dans un document encodé en TEI, on trouve dans le ```<teiHeader>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-teiHeader.html)  les métadonnées du document.
 - Le ```<teiHeader>``` fournit une description structurée des données contenues dans le document XML.
 - Certains éléments sont obligatoires, d'autres sont facultatifs.
 - La hiérarchie des données est contrainte par le schéma.
@@ -60,20 +60,20 @@ Lausanne, Jeudi 24 avril 2019
 ---
 
 ### La Sainte Trinité du ```<teiHeader>```
-1. Le nom du fichier
+1. ```<titleStmt>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-titleStmt.html) donne le nom du fichier
 
 ```XML
 <titleStmt>
   <title>Exercice sur un poème de Lope de Vega</title>
 </titleStmt>
 ```
-2. Des informations concernant la publication (licence, diffuseur…)
+2.  ```<publicationStmt>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-publicationStmt.html) donne des informations concernant la publication (licence, diffuseur…)
 ```XML
 <publicationStmt>
   <p>Simon Gabay, UniNe. CC-BY.</p>
 </publicationStmt>
 ```
-3. Des informations concernant la source
+3. ```<sourceDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-sourceDesc.html) Des informations concernant la source
 ```XML
 <sourceDesc>
   <p>Un poème de Lope de Vega.</p>
@@ -107,7 +107,7 @@ Et non ainsi:
 
 ### Pourquoi? Parce que
 
-Parce qu'il s'agit de la version minimale de ```<titleStmt>```, dans lequel on peut ajouter d'autres informations que le simple ```<title>```
+Parce qu'il s'agit de la version minimale de ```<titleStmt>```, dans lequel on peut ajouter d'autres informations que le simple ```<title>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-title.html).
 
 ```XML
 <titleStmt>
@@ -122,7 +122,7 @@ Parce qu'il s'agit de la version minimale de ```<titleStmt>```, dans lequel on p
 </titleStmt>
 ```
 
-Notons que ```<author>``` pourrait être lui aussi encodé comme ```<editor>``` avec ```<persName>```, ```<forename>``` et ```<surname>```.
+Notons que ```<author>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-author.html) pourrait être lui aussi encodé comme ```<editor>```  [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-editor.html) avec ```<persName>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-persName.html), ```<forename>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-forename.html) et ```<surname>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-surname.html).
 
 ---
 
@@ -136,7 +136,7 @@ L'encodage en XML-TEI est un encodage qui prévoit des trous que l'on peut rempl
 
 ### Des bienfaits de la globalisation (en TEI)
 
-Nous venons de voir apparaître la balise ```<persName>```. Cette balise n'est pas propre au ```<teiHeader>```, et on peut la retrouver un peu partout dans un document TEI, comme dans la balise ```<l>``` du ```<body>``` que nous avons précédemment vue.
+Nous venons de voir apparaître la balise ```<persName>```. Cette balise n'est pas propre au ```<teiHeader>```, et on peut la retrouver un peu partout dans un document TEI, comme dans la balise ```<l>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-l.html) du ```<body>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-body.html) que nous avons précédemment vue.
 
 ```XML
 <l>Elle a trouué <persName>Pyrrhus</persName>, porté ſur
@@ -172,7 +172,7 @@ L'élément```<title>``` peut être mis dans un ```<p>```, mais pas ```<author>`
 
 ### Des limites de la globalisation (suite)
 
-Parfois il est possible d'utiliser un élément sans pour autant que cela soit souhaitable, comme ```<persName>``` dans ```<bibl>```:
+Parfois il est possible d'utiliser un élément sans pour autant que cela soit souhaitable, comme ```<persName>``` dans ```<bibl>```  [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-bibl.html):
 ```XML
 <bibl>
   <persName>Molière</persName>
@@ -230,7 +230,7 @@ Voici une version plus développée:
 
 ### ```<editionStmt>```
 
-```<editionStmt>``` permet de donner des informations sur l'édition:
+```<editionStmt>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-editionStmt.html) permet de donner des informations sur l'édition:
 - est-ce la première version?
 - une révision?
 
@@ -254,7 +254,7 @@ Il est possible de préciser les responsabilités des collaborateurs dans le pro
 
 ### ```<publicationStmt>``` et ```<noteStmt>```
 
-```<publicationStmt>``` permet de donner des informations sur la publication et la diffusion d'un texte:
+```<publicationStmt>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-publicationStmt.html) permet de donner des informations sur la publication et la diffusion d'un texte:
 - qui publie?
 - Avec quels droits?
 
@@ -293,7 +293,7 @@ Il en va de même pour ```<sourceDesc>```.
 
 ### ```<sourceDesc>``` (livre)
 
-```<sourceDesc>``` permet de décrire la source à partir de laquelle un texte électronique a été dérivé ou produit. Son contenu diffère grandement si cette source est
+```<sourceDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-sourceDesc.html) permet de décrire la source à partir de laquelle un texte électronique a été dérivé ou produit. Son contenu diffère grandement si cette source est
 - un livre
 - un manuscrit
 
@@ -317,7 +317,7 @@ Pour un livre:
 
 ### ```<sourceDesc>``` (manuscrit)
 
-```<msDesc>``` n'est pas aussi générique que ```<bibl>```. Il a été développé par les médiévistes pour les manuscrits, mais se trouve désormais utilisé partout où la source est un document unique ou rare (imprimé ancien, épigraphie…).
+```<msDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-msDesc.html) n'est pas aussi générique que ```<bibl>```. Il a été développé par les médiévistes pour les manuscrits, mais se trouve désormais utilisé partout où la source est un document unique ou rare (imprimé ancien, épigraphie…).
 
 ```XML
 <sourceDesc>
@@ -383,7 +383,7 @@ signifie que ```<fileDesc>``` n'est pas la seule balise possible dans ```<teiHea
 
 ### ```<encodingDesc>```
 
-```<encodingDesc>``` documente la relation d'un texte électronique avec sa ou ses sources. Il permet notamment de donner des informations sur l'encodage.
+```<encodingDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-encodingDesc.html) documente la relation d'un texte électronique avec sa ou ses sources. Il permet notamment de donner des informations sur l'encodage.
 
 ```XML
 <encodingDesc>
@@ -407,7 +407,7 @@ signifie que ```<fileDesc>``` n'est pas la seule balise possible dans ```<teiHea
 
 ### ```<profileDesc>```
 
-```<profileDesc>``` fournit une description détaillée des aspects non bibliographiques du texte: création, langues utilisées, mots-clefs, noms des personnes ou de lieux mentionnés…
+```<profileDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-profileDesc.html) fournit une description détaillée des aspects non bibliographiques du texte: création, langues utilisées, mots-clefs, noms des personnes ou de lieux mentionnés…
 
 
 ```XML
@@ -432,7 +432,7 @@ signifie que ```<fileDesc>``` n'est pas la seule balise possible dans ```<teiHea
 
 ### ```<revisionDesc>```
 
-```<revisionDesc>``` fournit un résumé de l’historique des révisions d’un fichier. Qui a changé quoi et à quelle date?
+```<revisionDesc>``` [(cf. TEI)](https://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-revisionDesc.html) fournit un résumé de l’historique des révisions d’un fichier. Qui a changé quoi et à quelle date?
 
 ```XML
 <revisionDesc>
