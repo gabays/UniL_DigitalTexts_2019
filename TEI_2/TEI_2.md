@@ -454,4 +454,4 @@ Procédez en trois étapes:
 	2.2. Dans ```<publicationStmt>``` et ```<sourceDesc>``` retirez le ```<p>``` et ajoutez des éléments.
 4. Tentez d'ajouter des nouveaux éléments en plus de  ```<fileDesc>```, comme ```<profileDesc>``` ou ```<revisionDesc>```.
 
-Une proposition de solution se trouve dans le fichier (```TEI_2_corr.xml```).
+Une proposition de solution se trouve dans le fichier [TEI_2_corr.xml](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_exo).
