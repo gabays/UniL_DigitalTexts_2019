@@ -14,7 +14,7 @@ Géopolis - 2153
 |---|---|---|---|
 | 25/04 | 9h00-10h30 | Introduction aux humanités numériques et aux éditions numériques | S. Gabay |
 | 25/04 | 11h00-12h30 | [TEI (1ère partie): encodage de base](https://github.com/editio/workshop_tei_swiss) | J.L. Losada |
-| 25/04 | 14h00-15h30 | [TEI (2ème partie): métadonnées dans le teiHeader](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_exo) | S. Gabay |
+| 25/04 | 14h00-15h30 | [TEI (2ème partie): métadonnées dans le teiHeader](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2) | S. Gabay |
 | 25/04 | 16h00-17h30 | [TEI (3ème partie): entités nommées](https://github.com/editio/workshop_tei_swiss) | J.L. Losada |
 | 26/04 | 9h00-10h00 | [TEI (4ème partie): TEI Guidelines et schémas](materials/20190425_TEIcustomization.zip) | E. Spadini |
 | 26/04 | 10h00-10h30 | TEI demo: transformations and cartography | S. Gabay, J.L. Losada |
