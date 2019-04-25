@@ -455,3 +455,11 @@ Procédez en trois étapes:
 4. Tentez d'ajouter des nouveaux éléments en plus de  ```<fileDesc>```, comme ```<profileDesc>``` ou ```<revisionDesc>```.
 
 Une proposition de solution se trouve dans le fichier [TEI_2_corr.xml](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_exo).
+
+---
+
+### Quelques informations
+
+Lope de Vega, _La Perle de Séville_, in: Chefs-d'oeuvre du théâtre espagnol, Paris: Ladvocat, 1822, vol.1, pp. 362-363. Traduit par Jean-Baptiste Esménard.
+
+https://catalogue.bm-lyon.fr/ark:/75584/pf0001210668
