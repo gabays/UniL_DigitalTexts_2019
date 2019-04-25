@@ -445,7 +445,7 @@ signifie que ```<fileDesc>``` n'est pas la seule balise possible dans ```<teiHea
 ---
 ### Exercice
 
-Prenez le fichier [TEI_2_exo.xml](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_Doc) et ajoutez des métadonnées.
+Prenez le fichier [TEI_2_exo.xml](https://github.com/gabays/UniL_DigitalTexts_2019/tree/master/TEI_2/TEI_2_exo) et ajoutez des métadonnées.
 
 Procédez en trois étapes:
 1. Remplissez les données minimales de manière simple sans changer ```<p>```et ```<title>```.
